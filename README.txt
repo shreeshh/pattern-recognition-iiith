@@ -81,3 +81,5 @@ Go to Command Terminal
 
 * Now, open ui/build/index.html in the browser to test the template.
 
+
+Codacy Badge
