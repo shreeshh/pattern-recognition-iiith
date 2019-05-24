@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>vlabs-cse</title>
+    <link href="stylerules.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!-- for styling -->
+  </head>
+
+  <body>
+    <img src="logo-new.png">
+    <hr>
+    <span id="root"> 
+    Computer Science & Engineering &rarr; Pattern Recognition Lab &rarr; List Of Experiments 
+  </span>
+    <br>
+    <section>
+      <div class="index">
+        <a href="introduction.html"> Introduction </a> <br> 
+        <a href="theory.html"> Theory </a> <br> 
+        <a href="objective.html"> Objective  </a><br> 
+        <a href="experiment.html"> Experiment  </a><br> 
+        <a href="quizzes.html">Quizzes</a> <br> 
+        <a href="procedure.html"> Procedure </a><br> 
+        <a href="further-readings.html">Further-Readings</a> <br> 
+        <a href="feedback.html"> Feedback </a><br>
+      </div>
+      <div class="divider"></div>
+      <div class="text">
+        <h1 id="myheader">Feature Representation </h1>
+        <p>
+        	Note the structure of the lab: The first pane allows you to select a dataset from a list of available ones. Each dataset has a set of features that have been extracted for your use. You are required to select or create two features for each dataset such that resultant feature space representation is effective. You can visualize the data in the feature space, once you define the features. You can also check the accuracy of the resulting nearest neighbor classifier on a set of test samples <br>
+
+<h1 class="sub">Stage 1: </h1>
+<ol>
+<li>Load the 0-1 dataset and select the first two features.</li>
+<li>Display the samples in a 2-d feature space</li>
+<li>Click the classify button to check the accuracy of the NN classifier for the chosen representation.</li>
+<li>Note the target accuracy for the experiment. Modify the features to achieve the target accuracy.</li>
+<li>Note: You can get a complete view of the data samples and the corresponding features below the experiment pane. Plot different features to get an idea of the nature of different features. Derive new features based on this by combining multiple features using addition or multiplication. </li></ol><br>
+
+A variant of the nearest neighbor algorithm is the k-nearest neighbor algorithm, where you find the class labels of the k nearest reference samples for a new test sample. The label of the test sample is decided as the majority label among the reference samples. One could also weight the labels according to their similarity (closer samples getting higher weight). <br>
+
+<h1 class="sub">Stage 2:</h1>
+Repeat the above procedure for the different datasets given in the experiment. In each case, note the target accuracy and try to achieve it. Note that in some cases, you may not be able to cross the target accuracy using the provided features only (see next stage).
+<br>
+
+<h1 class="sub">Stage 3: </h1>
+<ol> 
+<li>Read the instructions on how to extract your own features for the datasets. Extract the features using your favorite programming environment, and dump the features into an xml file in the specified format. </li>
+<li>Use these new features that you created to achieve the target accuracy in cases where you were not able to do with the features provided. </li> </ol>
+        </p>
+      </div>
+    </section>
+
+    <div class="flex-container">
+  <div class="flex-item" id="updates">    
+      <h1 id="upd">Updates</h1> 
+          Lab Integration Kit Releases <br>
+          First Integration Workshop at IIIT Hyderabad <br>
+          Summer Integration Workshop at IIT Guwahati <br>
+          QA Integration Workshop at IIIT Hyderabad <br>
+          A new set of 25 Virtual Labs on Portable Media <br>
+  </div>
+  <div class="vr"></div>
+  <div class="flex-item" id="portal" >
+    Community <br>
+    Sakshat Portal <br>
+    Outreach Portal <br>
+    FAQ
+  </div>
+  <div class="vr"></div>
+  <div class="flex-item" id="linkcontact">
+    <span id="contact">
+    Contact Us <br>
+  </span> 
+    <u>Feedback</u> <br>
+    <u>support@vlabs.ac.in</u> 
+  </div>
+  <div class="vr"></div>
+  <div class="flex-item">
+    <span id="follow">Follow Us</span>
+      <br><img src="facebook.png"> <br>
+  <img src="twitter.png"> <br>
+  <img src="linkedin.png"> <br>
+  <img src="youtube.png", width="38", height="38", id="yt"> <br>
+  </div>
+
+
+
+  </body>
+
+</html>
