@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Simulator</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<style>
+	table, th, td {
+	  border: 1px solid black;
+	  border-collapse: collapse;
+	  width: 20%;
+	  text-orientation: center;
+	}	
+	.bs-example{
+		margin: 70px;
+	   }
+</style>
+</head>
+<body>
+	
+<div class="bs-example">
+    <div class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dataset</a>
+        <div class="dropdown-menu">
+            <a href="#" class="dropdown-item" all>T1</a>
+            <a href="#" class="dropdown-item">T2</a>
+            <a href="#" class="dropdown-item">T3</a>
+        </div>
+    </div>
+    <div >
+    <div class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Feature 1</a>
+        <div class="dropdown-menu">
+            <a href="#" class="dropdown-item" all>Contrast Ratio</a>
+            <a href="#" class="dropdown-item">Aspect Ratio</a>
+            <a href="#" class="dropdown-item">Perimeter</a>
+            <a href="#" class="dropdown-item">X-Symmetry</a>
+            <a href="#" class="dropdown-item">Y-Symmetry</a>
+            <a href="#" class="dropdown-item">Holes</a>
+        </div>
+    </div>
+    <div >
+    <div class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Feature 2</a>
+        <div class="dropdown-menu">
+            <a href="#" class="dropdown-item" all>Contrast Ratio</a>
+            <a href="#" class="dropdown-item">Aspect Ratio</a>
+            <a href="#" class="dropdown-item">Perimeter</a>
+            <a href="#" class="dropdown-item">X-Symmetry</a>
+            <a href="#" class="dropdown-item">Y-Symmetry</a>
+            <a href="#" class="dropdown-item">Holes</a>
+        </div>
+    </div>
+</div>
+	<script type="text/javascript" src="sim.js">
+		table = document.getHTMLById("table");
+	</script>
+<button type="button" onclick="load(t1, table)">Load</button>
+<table style="width:60%" id="table">
+	
+
+
+  <tr>
+    <th> Image </th>
+    <th> ImageID </th> 
+    <th> Class </th>
+    <th> Contrast Ratio </th>
+    <th> Aspect Ratio </th>
+    <th> Perimeter </th>
+    <th> X-Symmetry </th>
+    <th> Y-Symmetry </th>
+    <th> Holes </th>
+
+
+ </tr>
+
+</table>
+</body>
+</html>                            
