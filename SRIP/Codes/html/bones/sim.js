@@ -30,16 +30,16 @@ const datasets = {
 ]
 
 const tableBody = document.getElementById("table-body");
-const select = document.getElementById("select-dataset");
+const select = document.getElementById("data-select");
 
 let currentDataset = 't1';
 
-const load = arr => {
+const load = () => {
 	const frag = document.createDocumentFragment();
+	const arr = datasets[currentDataset];
 	const rows = arr[0].length;
 	const cols = arr.length;
 
-	return() => {
 		for(let i = 0; i < rows; i++){
 			const tr = document.createElement('tr');
 			for(let j = 0; j < cols; j++) {
@@ -51,7 +51,6 @@ const load = arr => {
 		}
 		tableBody.innerHTML = "";
 		tableBody.appendChild(frag);
-	};
 };
 
 // loadBtn.addEventListener('click', load(t1));
