@@ -1,7 +1,60 @@
 //Data	
-  	var 	t1=[[2,22,35,38,52,57,64,69,70,76,82,89,96,109,115,119,120,122,157,170,193,207,210,211,217,4,7,9,15,24,25,41,60,68,71,73,78,79,100,103,105,106,113,114,125,129,135,153,175,178],
+			var t1=[[
+			wwww.github.com/shreeshh/pattern-recognition-iiith/tree/master/SRIP/Libraries/Data/T1/images/2.gif,
+			wwww.github.com/shreeshh/pattern-recognition-iiith/tree/master/SRIP/Libraries/Data/T1/images/22.gif,
+			wwww.github.com/shreeshh/pattern-recognition-iiith/tree/master/SRIP/Libraries/Data/T1/images/35.gif,
+			wwww.github.com/shreeshh/pattern-recognition-iiith/tree/master/SRIP/Libraries/Data/T1/images/38.gif,
+			wwww.github.com/shreeshh/pattern-recognition-iiith/tree/master/SRIP/Libraries/Data/T1/images/52.gif,
+			wwww.github.com/shreeshh/pattern-recognition-iiith/tree/master/SRIP/Libraries/Data/T1/images/57.gif, 
+			wwww.github.com/shreeshh/pattern-recognition-iiith/tree/master/SRIP/Libraries/Data/T1/images/64.gif,
+			wwww.github.com/shreeshh/pattern-recognition-iiith/tree/master/SRIP/Libraries/Data/T1/images/69.gif,
+			wwww.github.com/shreeshh/pattern-recognition-iiith/tree/master/SRIP/Libraries/Data/T1/images/70.gif,
+			wwww.github.com/shreeshh/pattern-recognition-iiith/tree/master/SRIP/Libraries/Data/T1/images/76.gif,
+			wwww.github.com/shreeshh/pattern-recognition-iiith/tree/master/SRIP/Libraries/Data/T1/images/82.gif,
+			wwww.github.com/shreeshh/pattern-recognition-iiith/tree/master/SRIP/Libraries/Data/T1/images/89.gif,
+			wwww.github.com/shreeshh/pattern-recognition-iiith/tree/master/SRIP/Libraries/Data/T1/images/96.gif,
+			wwww.github.com/shreeshh/pattern-recognition-iiith/tree/master/SRIP/Libraries/Data/T1/images/109.gif,
+			wwww.github.com/shreeshh/pattern-recognition-iiith/tree/master/SRIP/Libraries/Data/T1/images/115.gif,
+			wwww.github.com/shreeshh/pattern-recognition-iiith/tree/master/SRIP/Libraries/Data/T1/images/119.gif,
+			wwww.github.com/shreeshh/pattern-recognition-iiith/tree/master/SRIP/Libraries/Data/T1/images/120.gif,
+			wwww.github.com/shreeshh/pattern-recognition-iiith/tree/master/SRIP/Libraries/Data/T1/images/122.gif,
+			wwww.github.com/shreeshh/pattern-recognition-iiith/tree/master/SRIP/Libraries/Data/T1/images/157.gif,
+			wwww.github.com/shreeshh/pattern-recognition-iiith/tree/master/SRIP/Libraries/Data/T1/images/170.gif,
+			wwww.github.com/shreeshh/pattern-recognition-iiith/tree/master/SRIP/Libraries/Data/T1/images/193.gif,
+			wwww.github.com/shreeshh/pattern-recognition-iiith/tree/master/SRIP/Libraries/Data/T1/images/207.gif,
+			wwww.github.com/shreeshh/pattern-recognition-iiith/tree/master/SRIP/Libraries/Data/T1/images/210.gif,
+			wwww.github.com/shreeshh/pattern-recognition-iiith/tree/master/SRIP/Libraries/Data/T1/images/211.gif, 
+			wwww.github.com/shreeshh/pattern-recognition-iiith/tree/master/SRIP/Libraries/Data/T1/images/217.gif,
+			wwww.github.com/shreeshh/pattern-recognition-iiith/tree/master/SRIP/Libraries/Data/T1/images/4.gif,
+			wwww.github.com/shreeshh/pattern-recognition-iiith/tree/master/SRIP/Libraries/Data/T1/images/7.gif,
+			wwww.github.com/shreeshh/pattern-recognition-iiith/tree/master/SRIP/Libraries/Data/T1/images/9.gif,
+			wwww.github.com/shreeshh/pattern-recognition-iiith/tree/master/SRIP/Libraries/Data/T1/images/15.gif,
+			wwww.github.com/shreeshh/pattern-recognition-iiith/tree/master/SRIP/Libraries/Data/T1/images/24.gif,
+			wwww.github.com/shreeshh/pattern-recognition-iiith/tree/master/SRIP/Libraries/Data/T1/images/25.gif,
+			wwww.github.com/shreeshh/pattern-recognition-iiith/tree/master/SRIP/Libraries/Data/T1/images/41.gif,
+			wwww.github.com/shreeshh/pattern-recognition-iiith/tree/master/SRIP/Libraries/Data/T1/images/60.gif,
+			wwww.github.com/shreeshh/pattern-recognition-iiith/tree/master/SRIP/Libraries/Data/T1/images/68.gif,
+			wwww.github.com/shreeshh/pattern-recognition-iiith/tree/master/SRIP/Libraries/Data/T1/images/71.gif,
+			wwww.github.com/shreeshh/pattern-recognition-iiith/tree/master/SRIP/Libraries/Data/T1/images/73.gif,
+			wwww.github.com/shreeshh/pattern-recognition-iiith/tree/master/SRIP/Libraries/Data/T1/images/78.gif,
+			wwww.github.com/shreeshh/pattern-recognition-iiith/tree/master/SRIP/Libraries/Data/T1/images/79.gif,
+			wwww.github.com/shreeshh/pattern-recognition-iiith/tree/master/SRIP/Libraries/Data/T1/images/100.gif,
+			wwww.github.com/shreeshh/pattern-recognition-iiith/tree/master/SRIP/Libraries/Data/T1/images/103.gif,
+			wwww.github.com/shreeshh/pattern-recognition-iiith/tree/master/SRIP/Libraries/Data/T1/images/105.gif,
+			wwww.github.com/shreeshh/pattern-recognition-iiith/tree/master/SRIP/Libraries/Data/T1/images/106.gif, 
+			wwww.github.com/shreeshh/pattern-recognition-iiith/tree/master/SRIP/Libraries/Data/T1/images/113.gif,
+			wwww.github.com/shreeshh/pattern-recognition-iiith/tree/master/SRIP/Libraries/Data/T1/images/114.gif,
+			wwww.github.com/shreeshh/pattern-recognition-iiith/tree/master/SRIP/Libraries/Data/T1/images/125.gif,
+			wwww.github.com/shreeshh/pattern-recognition-iiith/tree/master/SRIP/Libraries/Data/T1/images/129.gif,
+			wwww.github.com/shreeshh/pattern-recognition-iiith/tree/master/SRIP/Libraries/Data/T1/images/135.gif,
+			wwww.github.com/shreeshh/pattern-recognition-iiith/tree/master/SRIP/Libraries/Data/T1/images/153.gif,
+			wwww.github.com/shreeshh/pattern-recognition-iiith/tree/master/SRIP/Libraries/Data/T1/images/175.gif,
+			wwww.github.com/shreeshh/pattern-recognition-iiith/tree/master/SRIP/Libraries/Data/T1/images/178.gif
+
+				],
+				[2,22,35,38,52,57,64,69,70,76,82,89,96,109,115,119,120,122,157,170,193,207,210,211,217,4,7,9,15,24,25,41,60,68,71,73,78,79,100,103,105,106,113,114,125,129,135,153,175,178],
   				[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
-  				[0.19,0.204,0.216,0.237,0.279,0.277,0.3,0.148,0.273,0.202,,0.231,0.201,0.242,0.161,0.269,0.153,0.281,0.285,0.161,0.246,0.184,0.239,0.235,0.1,0.174,0.092,0.093,0.061,0.055,0.089,0.123,0.081,0.097,0.074,0.123,0.057,0.097,0.107,0.068,0.052,0.059,0.112,0.074,0.118,0.052,0.109,0.141,0.078,0.057,0.117],
+  				[0.19,0.204,0.216,0.237,0.279,0.277,0.3,0.148,0.273,0.202,0.231,0.201,0.242,0.161,0.269,0.153,0.281,0.285,0.161,0.246,0.184,0.239,0.235,0.1,0.174,0.092,0.093,0.061,0.055,0.089,0.123,0.081,0.097,0.074,0.123,0.057,0.097,0.107,0.068,0.052,0.059,0.112,0.074,0.118,0.052,0.109,0.141,0.078,0.057,0.117],
   				[0.092,0.095,0.085,0.09,0.097,0.095,0.1,0.1,0.087,0.09,0.09,0.095,0.085,0.1,0.108,0.09,0.1,0.1,0.117,0.09,0.09,0.1,0.1,0.085,0.087,0.085,0.07,0.062,0.062,0.085,0.09,0.065,0.082,0.075,0.08,0.06,0.077,0.08,0.08,0.06,0.067,0.08,0.065,0.082,0.065,0.067,0.09,0.07,0.065,0.077],
 				[87,86,77,73,93,90,94,103,77,77,84,92,79,99,86,91,84,105,92,76,82,101,95,87,84,50,49,46,47,46,77,46,48,73,62,46,49,49,47,45,46,51,44,48,45,49,52,50,46,51],
  				[131,143,113,132,149,150,154,72,125,127,135,110,107,112,136,108,166,111,120,105,98,140,110,92,125,86,52,39,28,86,104,50,85,71,74,28,75,88,72,31,53,81,34,79,48,48,107,58,51,77],
@@ -26,19 +79,27 @@
  	t3Y=[117,141,104,86,127,123,109,120,95,85,102,128,90,101,122,120,144,82,115,135,124,81,124,105,131,102,85,83,105,78,97,82,94,82,109,104,96,93,75,74,104,84,105,88,101,88,68,103,92,83];
  	t3H=[3,3,3,3,3,3,3,3,3,2,3,3,2,3,2,4,3,2,3,3,3,3,2,3,3,2,2,2,2,2,2,2,1,2,3,3,2,2,2,2,1,2,2,2,2,2,2,2,2,2];
 
+const tableBody = document.getElementById("table-body");
+const loadBtn = document.getElementById("T1");
 
- 	function load(array, table){
- 		//i for row
- 		//j for col
- 		document.getElementById("check").innerHTML = "check"
- 		for(var i = 0; i < array.length; i++) {
- 			// creating new row
- 			var cell = table.insertRow(table.length);
- 			for(var j = 0; j < array[i].length; j++){
- 				// creating new cell
- 				cell.innerHTML = array[j][i];
- 			}
- 		}
- 		
+const load = arr => {
+	const frag = document.createDocumentFragment();
+	const rows = arr[0].length;
+	const cols = arr.length;
 
- 	}
+	return() => {
+		for(let i = 0; i < rows; i++){
+			const tr = document.createElement('tr');
+			for(let j = 0; j < cols; j++) {
+				const td = document.createElement('td');
+				td.innerText = arr[j][i];
+				tr.appendChild(td);
+			}
+			frag.appendChild(tr);
+		}
+		tableBody.innerHTML = "";
+		tableBody.appendChild(frag);
+	};
+};
+
+loadBtn.addEventListener('click', load(t1));
