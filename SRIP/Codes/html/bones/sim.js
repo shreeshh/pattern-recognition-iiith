@@ -29,6 +29,8 @@ const datasets = {
 [3,3,3,3,3,3,3,3,3,2,3,3,2,3,2,4,3,2,3,3,3,3,2,3,3,2,2,2,2,2,2,2,1,2,3,3,2,2,2,2,1,2,2,2,2,2,2,2,2,2],
 ]
 
+}
+
 const tableBody = document.getElementById("table-body");
 const select = document.getElementById("data-select");
 
@@ -40,7 +42,7 @@ const load = () => {
 	const rows = arr[0].length;
 	const cols = arr.length;
 
-		for(let i = 0; i < rows; i++){
+		for(let i = 0; i < rows; i++) {
 			const tr = document.createElement('tr');
 			for(let j = 0; j < cols; j++) {
 				const td = document.createElement('td');
@@ -49,7 +51,7 @@ const load = () => {
 			}
 			frag.appendChild(tr);
 		}
-		tableBody.innerHTML = "";
+		tableBody.innerHTML = ""; 
 		tableBody.appendChild(frag);
 };
 
