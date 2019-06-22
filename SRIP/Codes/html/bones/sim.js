@@ -55,7 +55,7 @@ const load = () => {
 		tableBody.appendChild(frag);
 };
 
-loadBtn.addEventListener('click', load.value;
+// loadBtn.addEventListener('click', load.value);
 select.addEventListener('change', e => {
 	currentDataset = e.target.value;
 });
