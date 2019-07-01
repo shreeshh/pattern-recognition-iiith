@@ -22,6 +22,8 @@ var t2 = [
 [2,3,1,1,1,2,1,1,1,1,1,1,1,2,1,1,1,1,1,1,2,1,2,1,2,1,1,1,1,2,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1]
 ]
 
+
+
 //taking transpose 
 function transpose(a) {
     return Object.keys(a[0]).map(function(c) {
@@ -41,16 +43,17 @@ function dispcheck(newt) {
 	};
 
 };
+//to append the path to images
+function addpath(arr) {
+	for (var i = 1; i<arr[0].length;i++){
+		id = arr[0][i];
+		url = "path/" + id + ".gif";
+		arr[0][i] = url
+	}
+	return arr;
+}
 
-// document.write("<h1>Imported data </h1><br>")
-// dispcheck(t1)
-newt1 = transpose(t1);
-// document.write("<h1>After transposing </h1> <br>")
-// dispcheck(newt1)
-
-newt2 = transpose(t2);
-// newt3 = transpose(t3);
-//attempt1
+// populating html table 
 function makeTable(tableData) {
   var table = document.getElementById('table');
   var tableBody = document.getElementById('tbody');
