@@ -47,12 +47,12 @@ function dispcheck(newt) {
 function addpath(arr) {
 	for (var i = 1; i<arr[0].length;i++){
 		id = arr[0][i];
-		url = "path/" + id + ".gif";
-		arr[0][i] = url
+		url = "https://raw.githubusercontent.com/shreeshh/pattern-recognition-iiith/master/SRIP/Libraries/T1/" + id + ".gif";
+		arr[0][i] = document.createElement('img');
+		arr[0][i].src = url;
 	}
 	return arr;
 }
-
 // populating html table 
 function makeTable(tableData) {
   var table = document.getElementById('table');
@@ -73,4 +73,8 @@ function makeTable(tableData) {
   table.appendChild(tableBody);
   document.body.appendChild(table);
 }
-makeTable(newt1);
+
+makeTable(transpose(addpath(t1))); //first data set d
+
+
+
