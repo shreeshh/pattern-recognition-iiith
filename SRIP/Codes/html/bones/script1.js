@@ -84,9 +84,6 @@ function makeTable(tableData) {
 
 makeTable(transpose((t1)));
 
-makeTable(transpose((t2)));
-
-
 
 
 

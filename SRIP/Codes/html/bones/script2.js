@@ -82,7 +82,7 @@ function makeTable(tableData) {
   document.body.appendChild(table);  
 }
 
-makeTable(transpose((t1)));
+
 
 makeTable(transpose((t2)));
 
