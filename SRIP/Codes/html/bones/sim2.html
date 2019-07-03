@@ -2,10 +2,40 @@
 <html>
 <head>
   <title>test</title>
-  <!-- <link href="simss.css" rel="stylesheet" type="text/css"> -->
+ 
+  <script type="text/javascript" src="chart.js"></script>
 </head>
-<body>
+<body style="margin: 10px;">
 	<style type="text/css">
+		.column {
+		  float: left;
+		  padding: 1px;
+		  height: 300px; 
+		}
+
+		.left {
+		  width: 50%;
+		  /*margin-right: 100*/
+		}
+
+		.right {
+		  width: 50%;
+		  padding-left: 250px;
+		  margin-left: 20px;
+		}
+
+	
+		.row:after {
+		  content: "";
+		  	
+		  clear: both;
+		}
+		.option {
+			margin-left: 500px;
+		}
+		div#chartContainer {
+			margin-left: 500px;
+		}
 		/* CSS Document */
 
 		@import url(https://fonts.googleapis.com/css?family=Open+Sans);
@@ -117,20 +147,13 @@
 		li > a:after { content:  ' +'; }
 		li > a:only-child:after { content: ''; }
 	</style>
-<!-- 	<label for="dataset">Choose a dataset:</label>
 
-	<select id="dataset">
-	    <option value="">--Please choose an option--</option>
-	    <option value="T1">T1</option>
-	    <option value="T2">T2</option>
-	    <option value="T3">T3</option>
-	</select> -->
   <h1>Feature Representation</h1>
   <div id="container">
       <nav>
           <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Dataset</a>
+              <li><a href="introduction.html" id="home">Home</a></li>
+              <li><a href="">Dataset</a>
               <!-- First Tier Drop Down -->
               <ul>
                   <li><a href="sim1.html">T1</a></li>
@@ -138,44 +161,56 @@
                   <li><a href="sim3.html">T3</a></li>
               </ul>        
               </li>
-              <li><a href="#">Feature 1</a>
-              <!-- First Tier Drop Down -->
+              <li><a href="#">Features</a>
               <ul>
-                  <li><a href="#">Contrast Ratio</a></li>
-                  <li><a href="#">Aspect Ratio</a></li>
-                  <li><a href="#">Perimeter</a>
-                  <li><a href="#">X-Symmetry</a>
-                  <li><a href="#">Y-Symmetry</a>
-                  <li><a href="#">Holes</a>
+                  <li><a href="https://en.wikipedia.org/wiki/Contrast_ratio" id="CR">Contrast Ratio</a></li>
+                  <li><a href="https://en.wikipedia.org/wiki/Aspect_ratio" id="AR">Aspect Ratio</a></li>
+                  <li><a href="https://en.wikipedia.org/wiki/Perimeter" id="PERI">Perimeter</a>
+                  <li><a href="https://en.wikipedia.org/wiki/Symmetry_in_mathematics" id="XSYM">X-Symmetry</a>
+                  <li><a href="https://en.wikipedia.org/wiki/Symmetry_in_mathematics" id="YSYM">Y-Symmetry</a>
+                  <li><a href="https://en.wikipedia.org/wiki/Hole" id="HO">Holes</a>
               </ul>
               </li>
-             <li><a href="#">Feature 2</a>
-              <ul>
-                  <li><a href="#">Contrast Ratio</a></li>
-                  <li><a href="#">Aspect Ratio</a></li>
-                  <li><a href="#">Perimeter</a>
-                  <li><a href="#">X-Symmetry</a>
-                  <li><a href="#">Y-Symmetry</a>
-                  <li><a href="#">Holes</a>
-              </ul>        
-              </li>
-              <li><a href="#">Option1</a></li>
-              <li><a href="#">Option2</a></li>
-              <li><a href="#">Option3</a></li>
-              <li><a href="#">About</a></li>
+              <li><a href="theory.html">Revision</a></li>
+              <li><a href="experiment.html">Back</a></li>
+              <li><a href="https://github.com/shreeshh/pattern-recognition-iiith">Source</a></li>
           </ul>
       </nav>
     <h1></h1>
   <p> Welcome to the Feature Representation Simulator</p>
-  <p>Read tutorial <a target="_blank" href="http://webdesignerhut.com/css-dropdown-menu/">here</a></p>
+  <p>Read tutorial <u onclick="inst();">here</u></p>
   </div>
-  <h4 style="color: coral">Dataset</h4>
-  <!-- <button onclick="makeTable()">Make</button> -->
-<table id = 'codexpl'>
-  	<tbody id = 'tbody'>
-  		
-  	</tbody>
-  </table>
+  <div class = "row">
+  	<div class = "column left">
+  		  <h4 style="color: coral">Dataset</h4>
+  		  <!-- <button onclick="makeTable()">Make</button> -->
+  		<table id = 'codexpl'>
+  		  	<tbody id = 'tbody'>
+  		  		
+  		  	</tbody>
+  		  </table>
+  	</div>
+  	<div class="column right">
+  		<h1 style="margin-left: 300px;">Graph</h1>
+  		<div>
+  		  <div id="chartContainer" style="height: 370px; width: 100%; " >
+  		  	<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+  		  </div>
+  		  <div class = "option">
+  		  	<label for="feature select">Dataset 2:</label>
+
+  		  	<select id="pet-select">
+  		  	    <option value="">--Choose an option--</option>
+  		  	    <option value="crar" onclick="crar2(t1)">Contrast Ratio vs Aspect Ratio</option>
+  		  	    <option value="hvp" onclick="hvp2(t1)">Holes vs Perimeter</option>
+  		  	    <option value="xvy" onclick="xvy2(t1)">X-Symmetry vs Y-Symmetry</option>
+  		  	</select>
+
+  		  </div>
+  		</div> 
+  	</div>
+  </div>
+
 <script type="text/javascript" src="script2.js"></script>
 <style type="text/css">
 	#codexpl th, #codexpl td{
